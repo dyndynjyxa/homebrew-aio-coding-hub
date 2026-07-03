@@ -3,9 +3,9 @@
 cask "aio-coding-hub" do
   arch arm: "arm", intel: "intel"
 
-  version "0.60.5"
-  sha256 arm:   "dcae03eeb2fb5e2d65a1b5e4839668de991a1860ffc1850e0048ae60482392bd",
-         intel: "301ec2a4ef5db35aba8a9e7d3b7ee7ce1b5b62042243cef8c508b4a53af1d909"
+  version "0.60.6"
+  sha256 arm:   "c41046702127c4ab0d90597dbc952143c70fe743f3dc4965cac81c361370613c",
+         intel: "d4cf8107a334d67909cbb1caaf26147a5176e4d5539d34ed58f42b14b715ce84"
 
   url "https://github.com/dyndynjyxa/aio-coding-hub/releases/download/aio-coding-hub-v#{version}/aio-coding-hub-macos-#{arch}.zip"
   name "AIO Coding Hub"
